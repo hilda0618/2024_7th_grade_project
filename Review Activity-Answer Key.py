@@ -1,8 +1,8 @@
 #Ms. Liu
 #7th Grade Computer Science
 #Python Review Activity Answer Key
+#These activities should help students review math operations and user input
 #Jan 7 2024
-import math
 def mathOperPrac1():
   #One day on Jupiter is 10 hours. 
   #Write a program that calculates how many days pass on Jupiter in one Earth year? 
@@ -19,8 +19,8 @@ def mathOperPrac2():
   #Write a program to find the difference between a Sphere's volume and Surface Area 
   #given a radius of 3.
   #Hint: Answer should be zero
-  #Hint: Use math.pi for pi
-  #Hint: Use math.pow(x,y) for x to the power of y
+  #Hint: Use 3.14 for pi
+  #Hint: Use x**y for x to the power of y
   #Hint: the formula for volume is 4/3 * pi * r^3 
   #the formula for surface area is 4 * pi * r^2
 
