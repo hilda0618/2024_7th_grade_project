@@ -12,9 +12,9 @@ any non-alphabetical characters including spaces and numbers
 
 The program should encrypt/decrypt uppercase and lowercase letters'''
 
-option = input("Do you want to encrypt or decrypt?")
+option = input("Do you want to encrypt or decrypt?").casefold()
 result = ""
-SPECIALCHARACTERS = "[@_!#$%^&*()<>?/\|}{~:]"
+SPECIALCHARACTERS = "[@_!#$%^&*()<>?/\|}{~:],."
 message = input("What is your message?")
 if option == "encrypt":
   key = int(input("How many places do you want to shift?"))
